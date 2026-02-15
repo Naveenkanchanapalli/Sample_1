@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine Surprise 💖</title>
+
+  <link rel="stylesheet" href="ruveen.css" />
+</head>
+
+<body>
+
+  <!-- Romantic Background Image -->
+  <div class="romantic-bg"></div>
+
+  <!-- Floating Hearts Background -->
+  <div class="hearts" id="hearts"></div>
+
+  <!-- Fireworks Layer -->
+  <div class="fireworks" id="fireworks"></div>
+
+  <!-- Music Button -->
+  <button id="musicBtn" class="music-btn">🔊 Music</button>
+
+  <!-- 🎁 Gift Box (NEW) -->
+  <div id="giftBox" class="gift-box" title="Click Me 🎁">
+    🎁
+  </div>
+
+  <!-- 💌 Popup (NEW) -->
+  <div id="popup" class="popup">
+    <div class="popup-card">
+      <button id="closePopup" class="close-popup">✖</button>
+
+      <h2>💖 Thanks for your Exist! 💖</h2>
+
+      <p>Your Exist make me smile 😊</p>
+      <p>Your Smile make me Exist 💞</p>
+
+      <div class="popup-love">
+        --------luv uhh !-------
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Center Card -->
+  <div class="card" id="card">
+
+    <h1 class="title">💖 Valentine Surprise 💖</h1>
+    <p class="subtitle">Enter your name to unlock the secret...</p>
+
+    <div class="input-area">
+      <input type="text" id="nameInput" placeholder="Enter your Name..." />
+      <button id="unlockBtn">Unlock 💌</button>
+    </div>
+
+    <!-- Result Area -->
+    <div id="resultArea" class="result-area"></div>
+
+    <!-- YES / NO Buttons -->
+    <div class="buttons">
+      <button id="yesBtn" class="yes">YES 💞</button>
+      <button id="noBtn" class="no">NO 😁</button>
+    </div>
+
+  </div>
+
+  <!-- Confetti Hearts Layer -->
+  <div class="confetti" id="confetti"></div>
+
+  <!-- Audio -->
+  <audio id="bgMusic" loop>
+    <source src="romantic.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="kissSound">
+    <source src="kiss.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="ruveen.js"></script>
+</body>
+</html>
